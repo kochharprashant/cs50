@@ -10,6 +10,3 @@ Let’s recreate that pyramid in C, albeit in text, using hashes (#) for bricks,
       ###
      ####
     #####
-   ######
-  #######
- ########
