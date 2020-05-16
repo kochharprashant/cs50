@@ -1,0 +1,2 @@
+# cs50x
+Assignments for cs50x course
