@@ -1,0 +1,47 @@
+What's the smallest decimal number that you can represent with 3 bits?
+The number is 1
+
+What's the largest decimal number that you can represent with 3 bits?
+The number is 999
+
+In lecture, we only discussed how to represent positive numbers (and zero) in binary, otherwise known as non-negative numbers. Propose how you could represent positive numbers, negative numbers, and zero alike in binary. Keep in mind that the only available symbols are 0 and 1, no minus symbol from our human world! You're welcome to Google if need be, but first give some thought to the problem with the proverbial engineering hat on!
+To represent positive or negative or zero, we could have a predefined coding system in binary. Unfortunately, I wasn’t able to think of the coding system. I eventually googled it and read that positive numbers start with a 0 and negative numbers start with a 1.
+
+01000001 01101110 01110011 01110111 01100101 01110010 00100000 01101001 01110011 00100000 00110100 00110010 00101110
+There's a way to make this meaningful; find it!
+65	110	115	119	101	114	32	105	115	32	52	50	46
+A	n	s	w	e	r		i	s		4	2	.
+
+Write an algorithm (i.e., step-by-step instructions) for something you do every day. Assume that the algorithm will be executed a robot who, unlike a human, cannot "read between the lines," so take care to be precise! An algorithm with 15 – 50 steps is plenty.
+I will be writing a pseudocode for using word application to write Answer is 42.
+Step 1 – Press power button on the computer
+Step 2 – Wait for the computer to prompt to enter username & password details
+Step 3 – Enter username using the keyboard
+Step 4 – Use the mouse to roll the cursor over password
+Step 5 – Double click the mouse
+Step 6 – Enter password
+Step 7 – Wait for the computer to load
+Step 8 – Roll the mouse to bottom of the screen for the dock to pop up
+Step 9 – Click on the Word application
+Step 10 – Once the word application is open, roll the mouse cursor to the top of the menu
+Step 11 – Click on File
+Step 12 – Once the dropdown menu comes
+Step 13 – Click on New Document
+Step 14 – Once the file is ready
+Step 15 – Using the keyboard enter Answer is 42.
+Step 16 – Once completed entering the data, roll the mouse to File on the toolbar
+Step 17 – Select Save
+Step 18 – Once the Finder is open, select Document folder using a mouse
+Step 19 – Enter “Answer” as the file name
+Step 20 – Roll the mouse and click on “Save”
+
+
+Suppose that an engineer excitedly runs up to you and claims that they've implemented an algorithm that can sort n elements (e.g., numbers) in fewer than n steps. Give some thought as to why that's simply not possible and politely explain.
+The name is 0
+
+Suppose that some company has just sent your company a huge list of customers. You respond to that company with a strongly worded note because you only wanted the phone number of one customer, Mike Smith. They, in turn, reply to you suggesting that you simply find him quickly using binary search. Explain why it might not, in fact, be possible to use binary search on the huge list.
+The company could have stored the names in the list of their customers in various ways. For us to find “Mike Smith” using binary search would be tedious and time consuming. 
+
+Why might a programmer use a "linked list" instead of an "array" to store data in a computer program?
+“Array” is a data structure where data is stored continuously back to back (For eg. Its in a linear format on a grid). If we wanted to store extra data within it, we would need to copy the array and create the space for the extra data. So every time when we need to add extra data in array, we would require to follow the same steps again and again which isn’t efficient. 
+“Linked List” is a data structure where we could link data by telling each element is neighbor. If we wanted to store extra data, we don’t require to copy the entire data structure to to add data but unlink an element and relink it by the new created data. This turns out to be more efficient as it requires less time. 
