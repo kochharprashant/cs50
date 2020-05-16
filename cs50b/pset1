@@ -1,0 +1,37 @@
+Write an algorithm (i.e., step-by-step instructions) via which someone could walk or drive from some origin to some destination, perhaps a path that you yourself tend to travel. Take care to specify what the origin and destination that you have in mind. And take care to use loops and conditions as needed, particularly if there might be obstacles (e.g., red lines). Assume that your algorithm will be executed by a robot (or lost friend) who will follow your directions precisely.
+Algorithm – Car Ride in Mumbai
+Origin – Bandra Train Station to Destination – Khar Train Station by Car
+
+Car Ride in Mumbai
+Drive “north” for 500 meters
+When you reach the signal
+If signal is “green”
+	Turn right 
+else
+	Wait for the signal to turn “green”
+	When signal turns “green”
+	Turn right
+Keep driving “north” for another 250 meters
+When you reach the junction
+	If the junction is “clear”
+		Keep driving north for another 150 meters
+	else
+Wait for the junction to be “clear”
+		When the junction is “clear”
+		Keep driving north for another 300 meters
+When you reach the signal
+If signal is “green”
+	Turn right 
+else
+	Wait for the signal to turn “green”
+	When signal turns “green”
+	Turn right
+Keep driving “north” for another 200 meters
+Once 200 meters completed, you have reached your destination.
+
+
+What does it mean to compile a program?
+Compile a program means to translate source code to machine code.
+
+What's the difference between a program and a function?
+A function is a command or action where in a program is a collection of one or more functions. 
