@@ -1,0 +1,31 @@
+Recall that we discussed HTTP in the context of internet technologies and HTML in the context of web development. What's the difference between HTTP and HTML?
+
+Recall that we discussed both HTML and CSS in the context of web development. What's the difference between HTML and CSS?
+
+Dive into HTML
+For this challenge, you might find it helpful to skim or search http://htmldog.com/guides/html/ and http://htmldog.com/guides/css/,
+which build upon concepts from lecture. Here, we'll use a site called repl.it, which provides a lightweight online IDE for writing simple programs.
+We recommend you log in using your GitHub account at repl.it before beginning (this will make it a lot easier to find and rename your "repl"s if you need to go back),
+but it is also okay to create so-called "repl"s anonymously.
+
+Visit https://repl.it/@dlloyd09/CS50xCourseWebsite.
+There you'll find a basic website started by Doug, but as soon as you try to edit Doug's files, a new "repl" unique to you will be created,
+with mostly-empty files index.html and styles.css.
+
+Now let’s have you make an actual website with multiple pages.
+To view (and thus test!) your web page, remember to click the Run button at the top to open your website in the embedded browser.
+Be sure things work as expected before you submit!
+
+We’ll leave its design largely up to you, subject only to the following requirements:
+
+i) Your website's main page should live in index.html, since most web servers serve up index.html by default, in the absence of an explicit file name in a URL.
+ii) Your website must include a least one other page (with any filename, so long as it ends in .html), and your website's main page (i.e., index.html)
+must somehow link to that page. You can click "Add File" icon at the top of the embedded file browser to add a new file to your "repl".
+iii) Your website must include at least one image. Note that the embedded file browser also has a mechanism for uploading files from your computer,
+though you may also use images already on the internet.
+iv) Your website must be stylized with at least several CSS properties, which must live in styles.css (an "external stylesheet"), just as we saw (briefly) in css4.html.
+Your CSS needs to ultimately end up connected to your HTML, as well.
+v) Your website should be more complex than those from class (but much less complex than Harvard's home page!). As such, your website should probably use a
+few dozen HTML tags overall, plus several CSS properties.
+
+Alright, make us proud!
