@@ -16,9 +16,12 @@ int main(void)
     {
         scores[i] = get_int("Scores %i: ", i + 1);
     }
+    
+    // Print average
     printf("Average: %.1f\n", average(n, scores));
 }
 
+// Define average
 float average(int lenght, int array[])
 {
     int sum = 0;
