@@ -1,39 +1,39 @@
-Suppose that you turn on your computer and visit https://www.harvard.edu/ in a browser. Using each of the terms below in a context that makes clear your understanding of each, explain in no more than a sentence each the way in which each of the following contributes to the process by which Harvard's home page appears on your screen.
+# Suppose that you turn on your computer and visit https://www.harvard.edu/ in a browser. Using each of the terms below in a context that makes clear your understanding of each, explain in no more than a sentence each the way in which each of the following contributes to the process by which Harvard's home page appears on your screen.
 DHCP server, DNS server, IP address, packet, TCP port, web server
 
-DHCP server
+# DHCP server
 My laptop is assigned an address with the help of DHCP server where I can send and receive requests.
 
-DNS server
+# DNS server
 When searching for the website, my DCHP server connects to DNS server. 
 
-IP address
+# IP address
 The DNS server then connects me to Harvard’s IP address.  
 
-packet
+# packet
 Once connect to the IP address, it send out the data in packets back to my laptop.
 
-TCP port
+# TCP port
 TCP port helps to identify which service is requested which in this case is for https – port 80.
 
-web server
+# web server
 All the data of Harvard’s website is stored on a web server. 
 
-Recall that TCP (tries to) guarantee delivery by ensuring that any lost packets are resent. Why, though, might packets be lost between a sender and receiver?
+# Recall that TCP (tries to) guarantee delivery by ensuring that any lost packets are resent. Why, though, might packets be lost between a sender and receiver?
 Packets can be lost at times due to heavy traffic on the routers or webserver. 
 
-When a server receives a packet, how does it know whether that packet contains (part of) an email, a request for a website, an instant message, or something else altogether?
+# When a server receives a packet, how does it know whether that packet contains (part of) an email, a request for a website, an instant message, or something else altogether?
 Whenever an email or a request is sent out, it breaks into various packets by numbering itself for eg. 1/3, 2/3 and 3/3. 
 
-In what sense are domain names similar to phone numbers like 1-800-COLLECT?
+# In what sense are domain names similar to phone numbers like 1-800-COLLECT?
 Phone numbers like 1800COLLECT are unique and assigned a specific receiver same as domain name where they are assigned with an unique IP address. 
 
-If not already familiar, read up on "bandwidth" and "latency" (as via Google) and then, in your own words, distinguish the two concepts as they relate to internet speed.
+# If not already familiar, read up on "bandwidth" and "latency" (as via Google) and then, in your own words, distinguish the two concepts as they relate to internet speed.
 Bandwidth is rate of data transfer for a fixed period and Latency is time taken for data to transfer from one to point to another. 
 
-How does every website that you visit know (and likely log!) your IP address?
+# How does every website that you visit know (and likely log!) your IP address?
 As a computer uses DCHP to obtain an IP address on a network, that IP address is gets registered or logged to any website visited. 
 
-If not already familiar, read up on "DNS hijacking," as via https://www.wired.com/story/what-is-dns-hijacking/, and in your own words, explain what it means for an adversary to hijack a website via DNS.
+# If not already familiar, read up on "DNS hijacking," as via https://www.wired.com/story/what-is-dns-hijacking/, and in your own words, explain what it means for an adversary to hijack a website via DNS.
 Your answer should clearly explain how a hacker might do this
 DNS hijacking allows a hacker to redirect traffic of a specific website to a malicious website without the knowledge of the user. As we are aware, DNS is used to direct the user of the mentioned site on their browser to a specific IP address of the requested site by checking its nameserver. Today we have millions of websites over the internet and the DNS system has evolved from a single phone book to series of phone books where it keeps checking the various phones books till the time we get a specific IP address for the requested website. So when a hacker corrupts a DNS Lookup anywhere in that process, they are able to route users to their desired location. In the given article we have seen how hacker can take advantage where in for wikileaks could loose their sources or they could replicate any authentication process for your email, banking etc.
