@@ -1,0 +1,23 @@
+body
+{
+    text-align: left;
+    font-family: Calibri,;
+}
+            
+header
+{
+    font-size: 30pt;
+}
+            
+main
+{
+    text-align: justify;
+    font-size: 12pt;
+    width: 500px;
+}
+            
+footer
+{
+    font-size: 10pt;
+    align: bottom;
+}
