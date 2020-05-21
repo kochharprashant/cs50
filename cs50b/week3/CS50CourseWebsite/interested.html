@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet"/>
+        <title>Form</title>
+    </head>
+    
+    <body>
+        <header>
+            Application
+            <br/><br/> 
+        </header>
+        
+        <main>
+            <form id="form">
+              Full Name <input name="Name" type="text"/>
+              </br></br>
+
+              Email <input name="email" type="text"/>
+              </br></br>
+
+              I agree to terms and conditions: <input name="agreement" type="checkbox"/>
+              </br></br>
+
+              <input type="submit" value="Register"/>
+            </form>
+
+            <script>
+            var form = document.getElementById('form');
+            
+            form.onsubmit = function()
+            {
+                if (form.Name.value == '')
+                {
+                    alert('You must provide your name!');
+                    return false;
+                }
+                
+                else if (form.email.value == '')
+                {
+                    alert('You must provide your email address!');
+                    return false;
+                }
+                
+                else if (!form.agreement.checked)
+                {
+                    alert('You must agree to the terms and conditions!');
+                    return false;
+                }
+                
+                return true;
+            }
+        </script>
+        </main>
+        
+        <footer>
+            </br>
+            <a href="/index.html"> Go back to main page</a>
+            </br></br>
+            Copyright &#169; Harvard
+        </footer>
+    </body>
+</html>
