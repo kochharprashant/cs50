@@ -1,6 +1,8 @@
 # Recall that we discussed HTTP in the context of internet technologies and HTML in the context of web development. What's the difference between HTTP and HTML?
+HTTP is a protocol and HTML is a document. The computer fetches a HTML document via HTTP protocol.
 
 # Recall that we discussed both HTML and CSS in the context of web development. What's the difference between HTML and CSS?
+HTML is to create the content where as CSS is used to style the content on the HTML page.
 
 # Dive into HTML
 For this challenge, you might find it helpful to skim or search http://htmldog.com/guides/html/ and http://htmldog.com/guides/css/,
@@ -29,3 +31,5 @@ v) Your website should be more complex than those from class (but much less comp
 few dozen HTML tags overall, plus several CSS properties.
 
 Alright, make us proud!
+
+# https://CS50CourseWebsite--kochharprashant.repl.co
