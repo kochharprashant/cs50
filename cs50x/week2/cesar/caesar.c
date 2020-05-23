@@ -17,6 +17,7 @@ int main(int argc, string argv[])
         return 1;
     }
     
+     // Check correct command-line argument entered by user
     for (int i = 0, x = strlen(argv[1]); i < x; i++)
     {
         // Check for alphabets
@@ -37,6 +38,7 @@ int main(int argc, string argv[])
     // Convert string to integar
     int key = atoi(argv[1]);
     
+    // Cipher conversion
     for (int j = 0, y = strlen(text); j < y; j++)
     {
         // Check for upper case
