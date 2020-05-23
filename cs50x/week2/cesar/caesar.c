@@ -29,10 +29,10 @@ int main(int argc, string argv[])
     }
     
     // Prompt user for input
-    string text = get_string("Plaintext: ");
+    string text = get_string("plaintext: ");
             
     // Print ciphertext
-    printf("Ciphertext: ");
+    printf("ciphertext: ");
             
     // Convert string to integar
     int key = atoi(argv[1]);
@@ -47,7 +47,7 @@ int main(int argc, string argv[])
         }
         
         // Check for lower case
-        if (islower(text[j]))
+        else if (islower(text[j]))
         {
             // Print cipher
             printf("%c", 'a' + (text[j] - 'a' + key) % 26);
